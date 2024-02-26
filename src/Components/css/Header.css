@@ -1,0 +1,140 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #dddddd;
+  color: black;
+  /* opacity: 0.8; */
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  top: 0px;
+  padding: 0 30px;
+  z-index: 40;
+}
+.hul {
+  display: flex;
+}
+.hli {
+  list-style-type: none;
+  padding: 10px;
+}
+.ha {
+  text-decoration: none;
+}
+.navbar a {
+  color: #000;
+}
+.navbar .log {
+  font-weight: 400;
+}
+
+/* Header.css */
+
+/* Add these styles to your existing CSS or create a new CSS file */
+
+/* Style for the dropdown menu */
+
+.dropdown-menu {
+  position: absolute;
+  top: 70px;
+  right: 35px;
+  background-color: #f7e0e1;
+  border-radius: 8px;
+  padding: 10px 20px;
+  width: 200px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  min-height: 100px;
+  transform: translateY(-10px);
+
+  transition: 300ms;
+}
+
+.dropdown-menu ::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  right: 14px;
+  width: 20px;
+  height: 20px;
+  background: #f7e0e1;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+
+.dropdown-menu.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  transition: var(500ms) ease;
+}
+
+.dropdown-menu.inactive {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: var(500ms) ease;
+}
+
+.menu li {
+  margin-bottom: 8px;
+}
+.menu ul li {
+  padding: 10px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  gap: 6px;
+}
+
+.menu ul li:hover {
+  background: #f0c0c2;
+}
+
+.dropdown-menu ul {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+  background: #fff;
+}
+
+.dropdown-menu ul li:hover a {
+  color: rgb(212, 33, 9);
+  cursor: pointer;
+}
+
+.dropdown-menu ul li:hover img {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.logo-header {
+  position: relative;
+  right: 450px;
+  height: 50px;
+}
+
+.phno {
+  position: "relative";
+  right: "200px";
+}
+
+.mail {
+  position: "relative";
+  right: "200px";
+}
+
+@media screen and (min-width: 1200px) {
+  .logo-header {
+    right: 230px;
+  }
+  .phno{
+    right:100px;
+  }.mail{
+    left: 100px;
+  }
+}

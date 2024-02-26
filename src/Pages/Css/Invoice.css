@@ -1,0 +1,50 @@
+.setting-form {
+  display: block;
+  width: auto;
+  /* background: #fff; */
+  margin: 0 auto;
+  padding: 10px 17px;
+  /* -webkit-box-shadow: 2px 2px 3px -1px rgba(0,0,0,0.35); */
+ 
+  height: auto;
+  margin-bottom: 30px;
+  overflow-x: auto;
+}
+
+.setting-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  max-width: 200px;
+  width: 100%;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 5px;
+  margin: 25px o;
+  background-color: #4070f4 !important;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.setting-header {
+  position: relative;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  padding-top: 100px;
+  padding-left:10px;
+}
+
+.setting-header::before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  bottom: -2px;
+  height: 3px;
+  width: 27px;
+  border-radius: 8px;
+  background-color: #4070f4;
+  
+}

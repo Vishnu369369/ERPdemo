@@ -1,0 +1,35 @@
+.containerr form .fields1 {
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; */
+  }
+
+  .input-field1{
+    display: flex;
+    /* border: 2px solid; */
+    width: 500px;
+    height: 50px;
+    justify-content: space-between;
+  }
+
+  #label{
+    width: 200px;
+    font-size: 18px;
+    padding-top: 5px;
+  }
+
+  .select {
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 42px;
+    margin: 8px 0;
+    width: 100%;
+  
+  }
+  
